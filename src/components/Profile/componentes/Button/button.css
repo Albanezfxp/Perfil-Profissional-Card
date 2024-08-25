@@ -1,0 +1,24 @@
+#buttonItem {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(36, 99, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 99, 247, 1) 41%,
+    rgba(146, 177, 251, 1) 0100%
+  );
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+#btnContainer {
+  margin: 10px;
+}

@@ -1,0 +1,20 @@
+#profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  width: 25%;
+  height: 90vh;
+  border-radius: 30px;
+}
+
+#profileContainer > hr {
+  background: rgb(36, 99, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 99, 247, 1) 41%,
+    rgba(146, 177, 251, 1) 0100%
+  );
+}
